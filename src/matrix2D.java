@@ -50,4 +50,41 @@ matrixPrint(arr);
 
 }
 
-//Method 3 -->
+/*
+
+Method 3 --> Using while loop Matrix 2D printing----> 
+The while loop is very useful in situations where the exact dimensions of the array are not known beforehand, and the ‘for’ loop cannot be used in such situations.
+
+*/
+import java.util.*;
+
+class Demo {
+
+public static void matrixPrint(int arr[][])
+{
+int n = 0 ;
+int k = 0;
+while( n != arr.length)
+{
+    while( k != arr[n].length)
+      {
+        System.out.print(arr[n][k] + " ");
+        k++;
+      }
+      k=0;
+      n++;
+      System.out.println("");
+}
+}
+public static void main(String args[])
+
+{
+
+int arr[][] = { {10,20,30},
+                {40,50,60},
+                {100,200,300}
+              };
+matrixPrint(arr);
+}
+}
+

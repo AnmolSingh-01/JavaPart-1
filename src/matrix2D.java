@@ -23,39 +23,31 @@ class Matrix {
         print2D(arr);
     }
 }
-// Method 2 
+// Method 2 - Time complexity is reduced only one for loop used but using Arrays.toString method so we have to import java.util.* package for that...
 
-/*
-class Array { 
-  
-    public static void convertToString(int arr[][]) 
-    { 
-        int n = 0,k = 0;
-        while (n != arr.length)
-        {
-            while (k != arr[n].length)
-            {
-                System.out.print(arr[n][k] + " ");
-                k++;
-            }
-            k = 0;
-            n++;
-            System.out.println("");
-        }
-            
-    } 
-  
-    public static void main(String args[])
-    { 
-        int arr[][] = { { 23, 70, 39 }, 
-                        { 51, 64, 47 }, 
-                        { 81, 11, 105 } }; 
-        convertToString(arr); 
-    } 
+import java.util.*;
+
+class Demo {
+
+public static void matrixPrint(int arr[][])
+{
+
+ for(int i =0;i <arr.length;i++) 
+ { 
+   System.out.println(Arrays.toString(arr[i]));
+ }
+
+}
+public static void main(String args[])
+
+{
+
+int arr[][] = { {10,20,30},
+                {40,50,60}
+              };
+matrixPrint(arr);
 }
 
+}
 
-
-
-
-*/
+//Method 3 -->

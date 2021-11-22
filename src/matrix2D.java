@@ -14,9 +14,9 @@ class Array {
   
     public static void main(String args[])
     { 
-        int arr[][] = { { 23, 70, 39 }, 
-                        { 51, 64, 47 }, 
-                        { 81, 11, 105 } }; 
+        int ar[][] = { { 10, 20, 30 }, 
+                        { 40, 50, 60 }, 
+                        { 70, 80, 90 } }; 
         convertToString(arr); 
     } 
 } 

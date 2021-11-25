@@ -17,5 +17,29 @@ for(int i = 1 ; i <= num ; i++) {
 }
 
 }
-// This program gives the factor of any no .....Next we will find prime factor of any no....Lets see
+// Prime factor program .................//////////////////////////////////////////////25-11-2021
+
+import java.util.*;
+class primeFactor {
+
+public static void main(String args[]) {
+
+int number;
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the number : ");
+number = sc.nextInt();
+
+for(int i = 2 ; i < number ; i++) {
+
+   while( number % i ==0) {
+            System.out.println(i + " ");
+            number = number/i;
+
+               }
+}
+   if(number > 2)
+   System.out.println(number);
+}
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -3,12 +3,11 @@
 Take a input of a string.Then find frequency of a particular character.And if any character ( after a space )
  is in small letter then change it in a capital letter.Finally add a special character after that string.Special 
 character should come random basic for every dynamic input-output
-Input: n
 
+Input: n
 Output:
 
 Frequency of n = 2
-
 Final string = I Love Techmonastic Solution %
 
 */
